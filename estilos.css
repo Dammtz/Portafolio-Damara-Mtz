@@ -1,0 +1,425 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Quicksand:wght@300..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Truculenta:opsz,wght@12..72,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Quicksand:wght@300..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Syne:wght@400..800&family=Truculenta:opsz,wght@12..72,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+body {
+    background-color: rgb(201, 200, 200);
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    display: flex;
+    justify-content: center;
+}
+
+h2 {
+    margin: 0;
+}
+
+
+.info-name {
+    font-family: "Syne", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+
+.container {
+    max-width: 800px;
+    margin: 50px 15px;
+    width: 100%;
+}
+
+.section {
+    background-color: #ffff;
+    padding: 50px;
+    border-radius: 10px;
+    margin-bottom: 1px;
+    display: flex;
+}
+
+.subsection {
+    width: 50%;
+}
+
+.dot {
+    height: 15px;
+    width: 15px;
+    background-color: rgb(97, 202, 167);
+    border-radius: 50%;
+}
+
+.status {
+    display: flex;
+    border: 1px solid rgb(160, 160, 160);
+    border-radius: 20px;
+    padding: 6px;
+    margin-right: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.p-status {
+    margin: 0 10px;
+}
+
+.profile {
+    max-width: 100%;
+    height: 200px;
+    margin-top: 16px;
+    margin-left: 15%;
+    border-radius: 50%;
+}
+
+.p-desc {
+    font-size: 28px;
+    border-bottom: 1px solid rgb(176, 172, 172);
+    padding-bottom: 30px;
+    text-align: justify;
+}
+
+.btn-black {
+    background-color: black;
+    color: #ffff;
+    padding: 20px;
+    border-radius: 30px;
+}
+
+.btn-black:hover {
+    background-color: #ffff;
+    color: black;
+    cursor: pointer;
+}
+
+.btn-lined {
+    background-color: #ffff;
+    padding: 20px;
+    border-radius: 30px;
+    text-decoration: underline;
+    border: 2px solid black;
+}
+
+.btn-lined:hover {
+    background-color: black;
+    color: #ffff;
+    cursor: pointer;
+}
+
+
+.sticky-nav {
+    height: 300px;
+    width: 60px;
+    background-color: black;
+    border-radius: 30px;
+    position: sticky;
+    top: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sticky-nav li {
+    padding: 15px;
+    list-style: none;
+}
+
+ul {
+    text-decoration: none;
+    padding: 5px;
+}
+
+.l-1,
+.l-2,
+.l-3,
+.l-4 {
+    border-bottom: 1px solid rgba(176, 172, 172, 0.301);
+}
+
+.section-icons {
+    padding: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.section-icons img {
+    width: 60px;
+    padding: 8px;
+    border: 1px solid;
+    border-color: rgba(128, 128, 128, 0.39);
+    border-radius: 50%;
+}
+
+.section-e {
+    font-family: "Manrope", sans-serif;
+    font-optical-sizing: auto;
+    padding: 20px;
+}
+
+.fechas {
+    border: 1px solid rgba(128, 128, 128, 0.445);
+    border-radius: 50px;
+    padding: 8px;
+    width: fit-content;
+}
+
+.line {
+    border-bottom: 1px solid rgba(128, 128, 128, 0.644);
+    padding-bottom: 20px;
+}
+
+.section-works,
+.section-contac,
+.section-service {
+    padding: 30px;
+    margin-top: 40px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section-works img,
+.section-contac img {
+    height: 30px;
+}
+
+.cuadros {
+    display: flex;
+    border-radius: 10px;
+    margin-bottom: 1px;
+}
+
+
+.cards {
+    width: 50%;
+    margin: 1px;
+    padding: 3px;
+    display: flex;
+    flex-direction: column;
+    font-family: "Manrope", sans-serif;
+}
+
+.card {
+    margin: 1px;
+    padding: 3px;
+    display: flex;
+    flex-direction: column;
+    font-family: "Manrope", sans-serif;
+}
+
+.cards,
+.card :hover {
+    cursor: pointer;
+}
+
+.cards img,
+.card img {
+    width: 100%;
+    margin: 1px;
+    border-radius: 10px;
+}
+
+.text {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+
+.text button{
+    border: 1px gainsboro;
+    border-radius: 50px;
+    color: rgb(83, 82, 82);
+    padding: 8px;
+    width: fit-content;
+}
+
+
+.section-trabajos {
+    font-family: "Manrope", sans-serif;
+    font-optical-sizing: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+}
+
+.section-trabajos a {
+    color: black;
+}
+.section-trabajos h3{
+    margin: 0;
+}
+
+.botonN{
+    border-radius: 50px;
+    background-color: black;
+    color: #ffff;
+    padding: 20px;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    top: auto;
+    bottom: -700px;
+    left: 980px;
+    right: auto;
+}
+
+.botonC{
+    border-radius: 50px;
+    background-color: black;
+    color: #ffff;
+    padding: 20px;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    top: auto;
+    bottom: -520px;
+    left: 980px;
+    right: auto;
+}
+
+.cajita {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 30px;
+    width: 92%;
+}
+
+.faq .head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.faq .content {
+    height: 0px;
+    overflow-y: hidden;
+}
+
+.faq.active .head svg {
+    transform: rotate(180deg);
+}
+
+.faq .content {
+    height: 0px;
+    overflow-y: hidden;
+    transition: height 0.25s ease-in;
+}
+
+.faq .head svg {
+    transition: transform 0.25s ease-in;
+}
+
+.faq h3 {
+    font-family: "Manrope", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+}
+
+.section-cajita {
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.s-form {
+    padding: 30px;
+}
+
+.cartera {
+    font-family: "Manrope", sans-serif;
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+
+
+#form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.field {
+    margin-bottom: 1px;
+}
+
+.block1 {
+    width: 341px;
+    height: 43px;
+    border-radius: 5px;
+    border: 1px solid rgb(216, 207, 207);
+    padding: 8px 12px;
+}
+
+.mar {
+    margin-left: 2px;
+}
+
+.block2 {
+    width: 725px;
+    height: 130px;
+    border-radius: 5px;
+    border: 1px solid rgb(216, 207, 207);
+    padding-left: 10px;
+}
+
+.botonNegro {
+    border-radius: 50px;
+    background-color: black;
+    color: #ffff;
+    padding: 20px;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    top: auto;
+    bottom: -2505px;
+    left: 980px;
+    right: auto;
+}
+
+.section-contactos {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px 40px;
+}
+
+.section-contactos a {
+    color: black
+}
+
+.dam a {
+    text-decoration: none;
+}
+
+.dam p {
+    color: rgb(83, 82, 82);
+    border: 1px solid rgb(182, 178, 178);
+    border-radius: 50px;
+    padding: 5px;
+    width: fit-content;
+}
+
+.dam,
+.section-contactos a :hover {
+    color: rgb(58, 134, 196);
+}
+
+footer,
+.section-contactos {
+    font-family: "Manrope", sans-serif;
+    font-optical-sizing: auto;
+}
+
+footer {
+    margin-top: 20px;
+}
