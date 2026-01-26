@@ -5,15 +5,22 @@
 html {
     scroll-behavior: smooth;
 }
-
+:root {
+    --night: #a85c79;
+    --brown: #fdc790;
 
 body {
-    background-color: rgb(201, 200, 200);
+    background: linear-gradient(
+    90deg,
+    var(--night),
+    var(--brown) 
+    );
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-style: normal;
     display: flex;
     justify-content: center;
+    min-height: 100vh;
 }
 
 h2 {
@@ -84,10 +91,15 @@ h2 {
 }
 
 .btn-black {
-    background-color: black;
+    background: linear-gradient(
+    90deg,
+    var(--night),
+    var(--brown) 
+    );
     color: #ffff;
     padding: 20px;
     border-radius: 30px;
+    border: 1px solid rgb(119, 119, 119);
 }
 
 .btn-black:hover {
@@ -100,12 +112,15 @@ h2 {
     background-color: #ffff;
     padding: 20px;
     border-radius: 30px;
-    text-decoration: underline;
-    border: 2px solid black;
+    border: 1px solid rgb(119, 119, 119);
 }
 
 .btn-lined:hover {
-    background-color: black;
+    background: linear-gradient(
+    90deg,
+    var(--night),
+    var(--brown) 
+    );
     color: #ffff;
     cursor: pointer;
 }
@@ -398,7 +413,11 @@ ul {
 }
 
 .dam a {
-    text-decoration: none;
+    text-decoration-line: none;
+}
+
+a:-webkit-any-link {
+    text-decoration: none !important;
 }
 
 .dam p {
