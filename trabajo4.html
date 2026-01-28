@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diseño de página para ver el Clima</title>
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="media.css">
+</head>
+
+<body>
+
+    <div class="sticky-nav">
+        <ul>
+            <a href="index.html">
+                <li class="l-1"> <img src="img/home-icon.png" alt="logo home"> </li>
+            </a>
+            <a href="index.html">
+                <li class="l-2"> <img src="img/chat-light.png" alt="logo maleta"> </li>
+            </a>
+            <a href="index.html">
+                <li class="l-3"> <img src="img/bag-light.png" alt=""> </li>
+            </a>
+            <a href="index.html">
+                <li class="l-4"> <img src="img/circles-three-light.png" alt=""> </li>
+            </a>
+            <a href="index.html">
+                <li class="l-5"> <img src="img/paper-plane-tilt-light.png" alt=""> </li>
+            </a>
+        </ul>
+    </div>
+
+    <div class="container">
+        <div class=" section card">
+            <div><img src="img/diseñofigma.png" alt="Figma"></div>
+            <div class="text">
+                <h3>Diseño de página para ver el Clima</h3>
+                <button>Diseño</button>
+            </div>
+        </div>
+
+        <div class="section section-trabajos">
+            <h3>Descripción del Proyecto</h3>
+            <p>Este proyecto consiste en una aplicación web sencilla desarrollada con HTML, CSS y JavaScript, que
+                permite consultar el clima en tiempo real de cualquier ciudad. Para obtener la información meteorológica
+                se utilizan APIs externas (como OpenWeatherMap), las cuales proporcionan datos actualizados sobre
+                temperatura, humedad, velocidad del viento y condiciones generales.
+                La interfaz está diseñada para ser intuitiva y responsiva, mostrando los resultados de manera clara y atractiva. El usuario ingresa el nombre de la ciudad en un campo de búsqueda, y mediante fetch en JavaScript se realiza la petición a la API, mostrando los datos directamente en la página.
+
+            </p>
+        </div>
+
+        <div class=" section section-trabajos">
+            <h3>Fecha</h3>
+            <p>Diciembre 2025</p>
+        </div>
+
+        <div class=" section section-trabajos">
+            <div class="fechas dam a">
+                <a href="https://dammtz.github.io/LAB-appClima/">URL DEL SITIO WEB</a>
+            </div>
+        </div>
+
+        <div class="section s-form">
+            <form id="form">
+                <div class="field">
+                    <label for="from_name"></label>
+                    <input class="block1" type="text" name="from_name" id="from_name" placeholder="Nombre"
+                        maxlength="50">
+                </div>
+                <div class="field">
+                    <label for="email_id"></label>
+                    <input class="block1 mar" type="email" placeholder="Email" name="email_id" id="email_id" required>
+                </div>
+                <div class="field">
+                    <label for="message"></label>
+                    <input class="block2" type="text" name="message" id="message" placeholder="Mensaje">
+                    <input class="botonN" type="submit" id="button" value="Enviar">
+                </div>
+            </form>
+        </div>
+
+        <div class="section section-contactos">
+            <div class="dam"><a href="https://www.linkedin.com/in/damara-sulim-mtz/">
+                    <p>Linkedin</p>
+                </a>
+            </div>
+
+            <div class="dam"><a href="https://wa.me/5215615066690">
+                    <p>Whatsapp</p>
+                </a>
+            </div>
+
+            <div class="dam"><a href="https://github.com/Dammtz">
+                    <p>GitHub</p>
+                </a>
+            </div>
+
+            <div><a href="mailto:andysu5524@gmail.com">
+                    <p>andysu5524@gmail.com</p>
+                </a></div>
+        </div>
+        <footer>
+            Made by Damara Martinez - © 2024
+        </footer>
+
+    </div>
+    <script src="email.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+    <script type="text/javascript">
+        emailjs.init('CHnVLu6imGaB_ZLfa')
+    </script>
+</body>
+
+</html>

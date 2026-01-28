@@ -57,12 +57,15 @@ h2 {
 .dot {
     height: 15px;
     width: 15px;
-    background-color: rgb(97, 202, 167);
+    background: linear-gradient(
+    var(--night),
+    var(--brown) 
+    );
     border-radius: 50%;
 }
 
 .status {
-    display: flex;
+
     border: 1px solid rgb(160, 160, 160);
     border-radius: 20px;
     padding: 6px;
@@ -92,7 +95,6 @@ h2 {
 
 .btn-black {
     background: linear-gradient(
-    90deg,
     var(--night),
     var(--brown) 
     );
@@ -109,7 +111,7 @@ h2 {
 }
 
 .btn-lined {
-    background-color: #ffff;
+    background-color: #ffffff;
     padding: 20px;
     border-radius: 30px;
     border: 1px solid rgb(119, 119, 119);
@@ -117,7 +119,6 @@ h2 {
 
 .btn-lined:hover {
     background: linear-gradient(
-    90deg,
     var(--night),
     var(--brown) 
     );
@@ -129,7 +130,7 @@ h2 {
 .sticky-nav {
     height: 300px;
     width: 60px;
-    background-color: black;
+    background-color: rgba(206, 205, 205, 0.377);
     border-radius: 30px;
     position: sticky;
     top: 60px;
@@ -152,7 +153,8 @@ ul {
 .l-2,
 .l-3,
 .l-4 {
-    border-bottom: 1px solid rgba(176, 172, 172, 0.301);
+    border-bottom: 1px solid rgba(233, 233, 233, 0.301);
+}
 }
 
 .section-icons {
@@ -165,7 +167,7 @@ ul {
     width: 60px;
     padding: 8px;
     border: 1px solid;
-    border-color: rgba(128, 128, 128, 0.39);
+    border-color: rgba(0, 0, 0, 0.39);
     border-radius: 50%;
 }
 
